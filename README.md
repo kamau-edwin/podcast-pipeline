@@ -74,8 +74,10 @@ After running step 1 for all the RSS URLs run this step
 ```
 
 ## Documentation  
-The following documents provide a more detail overview of the pipeline, design decision
+The following documents provide a more detail overview of the pipeline and design decision rationale
 
 * [Pipeline logic overview](https://github.com/kamau-edwin/podcast-pipeline/blob/main/docs/pipeline_logic.md)
+
+* [Design Decision Rationale](https://github.com/kamau-edwin/podcast-pipeline/blob/main/docs/design_decision.md)
 
 

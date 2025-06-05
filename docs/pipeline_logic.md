@@ -1,6 +1,7 @@
 ## Pipeline Logic Overview
 
-This pipeline is designed to automate the process of downloading podcast episodes from RSS feeds, extracting metadata, transcribing audio using WhisperX, and storing all results in a PostgreSQL database.
+This pipeline is designed to automate the process of downloading podcast episodes
+from RSS feeds, extracting metadata, transcribing audio using WhisperX, and storing all results in a PostgreSQL database.
 
 The pipeline has two main stages:
 
@@ -8,7 +9,7 @@ The pipeline has two main stages:
 
 ### Stage 1: Download and Metadata Extraction
 
-**Script:** `download_podcast.py`
+**Script:** `download.py`
 
 This stage uses RSS feeds to:
 - Parse podcast episode metadata (title, date, audio URL)

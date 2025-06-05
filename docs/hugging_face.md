@@ -8,15 +8,13 @@ Follow these steps:
 
 ### Step 1: Create a Hugging Face Account
 
-If you don’t already have one, sign up here:  
-[https://huggingface.co/join](https://huggingface.co/join)
+If you don’t already have one, [Sign up](https://huggingface.co/join)
 
 ---
 
 ### Step 2: Generate an Access Token
 
-1. Go to your Hugging Face account's **Settings > Access Tokens**:  
-   [https://huggingface.co/settings/tokens](https://huggingface.co/settings/tokens)
+1. Go to your Hugging Face [**Access Tokens**](https://huggingface.co/settings/tokens)
 
 2. Click **"Create new token"**.
 

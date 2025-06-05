@@ -4,7 +4,7 @@ This repository contains a complete pipeline for downloading, transcribing, and 
 
 ---
 
-## 🚀 Features
+## Features
 
 - Download podcast audio episodes via RSS
 - Extract and save metadata (e.g. title, publish date, duration)
@@ -14,7 +14,7 @@ This repository contains a complete pipeline for downloading, transcribing, and 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python 3.10+
 - Linux or Unix 
@@ -22,7 +22,7 @@ This repository contains a complete pipeline for downloading, transcribing, and 
 Make sure `ffmpeg` is installed and accessible in your PATH. `WhisperX` relies on it for  audio processing.
 
 
-## 📦 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -51,10 +51,10 @@ In the `scripts` folder edit the file `config.py`
 	# required for Diarization 
 	HF_TOKEN =  "your_huggingface_token"  
 ```
-See [obtaining a hugging face token]()
+See [obtaining a hugging face token](https://github.com/kamau-edwin/podcast-pipeline/blob/main/docs/hugging_face.md)
 
 
-## 📥 Running the Pipeline
+## Running the Pipeline
 
 ### Step 1: Download and Transcribe Podcasts
 
@@ -75,4 +75,7 @@ After running step 1 for all the RSS URLs run this step
 
 ## Documentation  
 The following documents provide a more detail overview of the pipeline, design decision
+
+* [Pipeline logic overview](https://github.com/kamau-edwin/podcast-pipeline/blob/main/docs/pipeline_logic.md)
+
 

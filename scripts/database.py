@@ -1,6 +1,6 @@
 import pandas as pd
 from sqlalchemy import create_engine
-from config import DB_CONFIG
+from scripts.config import DB_CONFIG
 
 class PodcastDB:
     """Handles PostgreSQL connection and data uploads."""

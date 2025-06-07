@@ -6,7 +6,7 @@ from datetime import datetime
 from pathlib import Path
 import pandas as pd
 
-from utils import log, to_seconds
+from scripts.utils import log, to_seconds
 
 class DownloadPodcast:
     """Downloads podcast episodes and stores metadata."""

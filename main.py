@@ -5,7 +5,7 @@ import pandas as pd
 from pathlib import Path
 
 from scripts.download import DownloadPodcast
-from scripts.transcriber import Transcriber
+from scripts.transcribe import Transcriber
 from scripts.utils import log
 
 @click.command()

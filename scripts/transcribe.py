@@ -3,8 +3,8 @@ import time
 from pathlib import Path
 import pandas as pd
 import whisperx
-from utils import log
-from config import RUN_CONFIG, HF_TOKEN
+from scripts.utils import log
+from scripts.config import RUN_CONFIG, HF_TOKEN
 
 class Transcriber:
     """Transcribes and diarizes audio files using WhisperX."""
